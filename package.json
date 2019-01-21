@@ -1,0 +1,22 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "main": "app.js",
+  "author": "David Stepanov",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "body-parser": "^1.18.3",
+    "cors": "^2.8.5",
+    "express": "^4.16.4"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "test": "jest"
+  },
+  "devDependencies": {
+    "jest": "^23.6.0",
+    "superagent": "^4.1.0",
+    "supertest": "^3.4.1"
+  }
+}
