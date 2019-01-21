@@ -46,6 +46,14 @@ $ yarn test
 
 Create a new app on Heroku. Use this buildpack for Node: `https://github.com/heroku/heroku-buildpack-nodejs`
 
+Optional: create app using Heroku CLI: `$ heroku create`.
+Or connect to existing app: `$ heroku git:remote -a reddit-feed-backend`
+
+```
+$ heroku buildpacks:set https://github.com/heroku/heroku-buildpack-nodejs
+$ git push heroku master
+```
+
 Deploy frontend: [Frontend Repository](https://github.com/divadvo/Reddit-Feed-Frontend)
 
 Change `FRONTEND_URL_PRODUCTION` in `app.js` to allow CORS request from frontend.
