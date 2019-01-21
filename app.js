@@ -5,7 +5,7 @@ const axios = require("axios");
 var app = express();
 
 // Setup CORS header. More complex alternative: setup a proxy server
-const FRONTEND_URL_PRODUCTION = "http://reddit-feed-frontend.herokuapp.com";
+const FRONTEND_URL_PRODUCTION = "https://reddit-feed-frontend.herokuapp.com";
 const FRONTEND_URL_DEV = "http://localhost:3000";
 var whitelist = [FRONTEND_URL_DEV, FRONTEND_URL_PRODUCTION];
 
